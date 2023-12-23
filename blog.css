@@ -337,4 +337,19 @@ margin: 40px 0 20px;
     .event-section{
         font-size:1.2em;
     }
+
+    .grid-three-item {
+        display: block;
+    }
+
+    .grid-three-text-overlay {
+        writing-mode: horizontal-tb; 
+        white-space: nowrap;
+        text-transform: uppercase;
+        background-color: black; 
+        color: #fff;
+        padding: 10px;
+        margin-top: 0px;
+    }
+    
 }
