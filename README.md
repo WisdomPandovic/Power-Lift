@@ -1,6 +1,8 @@
 # Power Lift
 Welcome to Power Lift! This application is designed to help users with their fitness journey by providing valuable information, tips, and resources.
 
+Check out the live demo: [Power Lift Demo](https://power-lift.vercel.app/) 
+
 ## Table of Contents
 Features
 Installation
