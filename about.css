@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about-us-section {
+    text-align: center;
+}
+
+.about-us-image {
+    position: relative;
+}
+
+.about-us-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.about-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+}
+
+.about-text-overlay h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.about-text-overlay p {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.two-divs-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 50px 0; 
+    width: 70%;
+    margin: auto;
+}
+
+.text-div {
+    text-align: left;
+    max-width: 400px;
+}
+
+.text-div h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.text-div p {
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #A8A8A7;
+}
+
+.explore-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-right: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.explore-link:hover {
+    background-color: #fff;
+    color: #4CAF50;
+}
+
+.video-div {
+    position: relative;
+}
+
+.video-div video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-div img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.full-width-image-section {
+    width: 100%;
+    overflow: hidden; 
+    margin: 50px 0px;
+}
+
+.full-width-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.latest-blog-section {
+    text-align: center;
+    padding: 50px 0; 
+    width: 70%;
+    margin: auto;
+}
+
+.section-title  {
+    margin: 30px 0px;
+}
+
+.section-title h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.section-title p {
+    font-size: 1em;
+    color: #777; 
+    margin-bottom: 10px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.blog-item {
+    text-align: left;
+}
+
+.blog-item img {
+    width: 100%;
+    height:200px;
+    display: block;
+}
+
+.blog-item h2 {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.blog-item p {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #A8A8A7; 
+}
+
+.vm{
+    width: 100px;
+}
+
+.view-more {
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 7px;
+}
+
+.follow-us-section {
+    background-color: #000;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.follow-us-text {
+    margin-bottom: 30px;
+}
+
+.follow-us-text p {
+    font-size: 1em;
+    color: #777; 
+}
+
+.social-icons .fab.fa-instagram {
+    color: #fff;
+}
+
+.fab.fa-instagram {
+    font-size: 1.1em;
+    color: #e4405f; 
+}
+
+.instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.instagram-grid img {
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .two-divs-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: auto;
+    }
+ }
+
+ @media (max-width: 500px) {
+    .about-text-overlay p {
+        font-size: 2em;
+    }
+
+    .blog-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px; 
+    }
+ }
