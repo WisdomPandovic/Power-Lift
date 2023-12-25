@@ -65,6 +65,17 @@
     color: #A8A8A7;
 }
 
+.text-div button {
+    font-size: 1em;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: yellowgreen;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .explore-link {
     display: inline-block;
     padding: 10px 20px;

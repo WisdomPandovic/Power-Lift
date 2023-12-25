@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 10px;
 }
 
 #logo {
@@ -48,7 +49,7 @@ nav.right-side {
 
 .hr{
     display: none;
-}
+}   
 
 .hamburger_container input{
     display: none;
@@ -67,9 +68,10 @@ nav.right-side {
     .hamburger_container p{
         font-size: 30px;
         cursor: pointer;
-        color: black;
+        color: #fff;
         padding: 30px 10px;
         display: none;
+        text-transform: uppercase;
         }
     
     .hide_nav_container{
@@ -124,6 +126,10 @@ nav.right-side {
     header {
         display: none;
     }
+
+    .hamburger_container {
+        background-color: #1F2022;
+        }
     
     .hamburger_container label{
         display: block;
